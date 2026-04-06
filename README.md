@@ -243,7 +243,39 @@ print("✅ إنتهى!")  # في 0.1s# ملخّص نتائج مشروع CUPF Dua
   - وانحراف موجة النهاية عن الكثافة النظرية للأعداد الأولية،  
   - وقرب ذروة القفزة من عدد تمثيلي معيّن.
 - يظهر نظام النهاية أن الأعداد الأولية في آخر 100 مليون لا تكون توزيعًا ثابتًا، بل تُعيد تشكيل نفسها في نمط قفزي متجدد مع تغيّر قاعدة التمثيل،  
-  وكأنها تُولد من جديد في النهاية بسبب قوة التمثيل.
+  وكأنها تُولد من جديد في النهاية بسبب قوة التمثيل
+  # Summary of Results – CUPF Dual Thread System (Rawia, 2026)
+
+A unified system has been developed to study the effect of representation power on the wave‑like distribution of prime numbers, using a dual‑thread model operating on the range 1_000_000_000 (1B).
+
+## What was built?
+- A unified prime sieve that generates primes, discards composites, and then shows only:
+  - Execution speed (time) as a proxy for power,
+  - A short wave in a fixed window (the end, last 100 million).
+- A dual‑thread system (CUPF Dual Thread) that links:
+  - One real thread that reveals new primes in the end region,
+  - And one predictive thread that captures the effect of representation power as a wave “jump” in the same end window.
+
+## What does the system demonstrate?
+- Representation power can be measured through:
+  - Execution speed on 1B,
+  - The deviation of prime density in the end window from the theoretical density,
+  - And the distance between the peak of the wave and a representative number.
+- The end‑window model shows that primes in the last 100 million do not follow a rigid, fixed pattern but instead re‑shape into a new wave pattern whenever the base representation is changed,
+  as if they are “reborn” at the end by the power of the representation.
+
+## Were the goals achieved?
+Yes. The system achieved:
+- The scientific goal:  
+  Linking speed, representation power, and a wave in the end region,  
+  and formalizing a simple analytic law (RAWIA‑WAVE‑END) that connects power, density, and peak position.
+- The conceptual goal:  
+  Demonstrating that changing the representation forces primes in a local region (the end) to reappear in a new wave‑like configuration.
+- The legal‑intellectual goal:  
+  Fully protecting the intellectual property of the system, algorithm, and law under the name **Rawia – 2026**.
+
+In short, the results confirm that the project has succeeded in its core vision:
+> “Relying on execution speed and a focused window at the end, instead of a complete output analysis, to understand how symmetries and power influence the wave‑like emergence of prime numbers.”.
 
 ## هل تحقّق الهدف؟
 نعم، تحقّق:
