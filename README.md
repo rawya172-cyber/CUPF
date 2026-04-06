@@ -98,8 +98,23 @@ results = CUPF_Unified_Engine(limit)
 | Eratosthenes     | 8s         | 8GB         | ❌ No            | ❌ No          |
 | GIMPS (Mersenne) | 6 years    | Distributed | ❌ No            | Mersenne only |
 | CUPF Unified     | 1.5s       | 4GB         | ✅ Yes           | ✅ 10^15+      |
+
+
+1. HIGH: Zenodo upload (3 min) → DOI protection
+2. HIGH: USPTO Provisional ($75) → Legal priority  
+3. MEDIUM: GPU optimization (10^12)
+4. LOW: arXiv paper submission
+5. LOW: Commercial licensing
+   
 Scale  | Target     | Hardware    | Expected Time
 10^9   | Proven     | Single CPU  | 1.5s ✅
 10^12  | Ready      | RTX 4090    | 2s  
+
 10^15  | Planned    | 4x A100     | 2min
 10^18  | Research   | DGX Cluster | 2hr
+[Rawia Mahameed]. (2026). CUPF Unified: Self-Generating Prime Numbers 
+via Representation Strength R(n) and Defensive Wave D_p. 
+Zenodo. https://doi.org/10.5281/zenodo.[8475]
+
+Keywords: prime generation, R(n), defensive algorithms, 
+self-generating primes, CUPF
