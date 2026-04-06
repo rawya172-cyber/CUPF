@@ -276,7 +276,14 @@ Yes. The system achieved:
 
 In short, the results confirm that the project has succeeded in its core vision:
 > “Relying on execution speed and a focused window at the end, instead of a complete output analysis, to understand how symmetries and power influence the wave‑like emergence of prime numbers.”.
-
+Rawia_CUPF_Archive/
+├── CUPF_DualImproved.py
+├── proofs/
+│   └── law_rawia_wave_end.txt
+├── docs/
+│   ├── CONCEPT.md
+│   ├── OVERVIEW.md
+│   └── LAW.md
 ## هل تحقّق الهدف؟
 نعم، تحقّق:
 - الهدف العلمي:  
