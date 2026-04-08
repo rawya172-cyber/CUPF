@@ -6,7 +6,7 @@ R(n) = |{B ∈ ℬ | n ∈ B}|           // Representation strength
 λ_p = p - max{q ∈ P_F | q < p}     // Prime wavelength
 D_p = R(p) × λ_p                   // Defensive wave power
 
-COMPLETE(F) = {n ∈ ℬ | R(n) > θ ∧ n ∉ ∪_{p∈P_F,p<n} M_p} ∪ P_F
+COMPLETE(P) = {n ∈ ℬ | R(n) > θ ∧ n ∉ ∪_{p∈P_F,p<n} M_p} ∪ P_F
 where M_p = {mp | m ≥ 2}, θ = 3# CUPF
 p ∈ P_F if: R(p) > θ ∧ ∀q∈P_F,q<p: p ∉ M_q
 | Law                           | Mathematical Statement               |
