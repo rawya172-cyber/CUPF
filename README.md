@@ -1,4 +1,4 @@
-# 🔢 CUPF – Comprehensive Unified Prime Filter
+#CUPF – Comprehensive Unified Prime Filter
 
 > A Deterministic Structural Framework for Prime Isolation
 
