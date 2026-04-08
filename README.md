@@ -13,7 +13,7 @@ p ∈ P_F if: R(p) > θ ∧ ∀q∈P_F,q<p: p ∉ M_q
 | ----------------------------- | ------------------------------------ |
 | 1. Prime Structural Pattern   | ∀p∈P_F, ∃B∈ℬ: p∈B ∧ R(p)>θ           |
 | 2. First-Occurrence Exclusion | p∈P_F ⇒ ∀m≥2, mp∉COMPLETE(F)         |
-| 3. Composite Counting Identity       | C = {n∈ℬ \| R(n)≤θ}                  |
+| 3. prime wave Identity       | C = {n∈ℬ \| R(n)≤θ}                  |
 | 4. Factor Average             | AvgFactors(C) = ΣnumFactors(c)/\\\|C\\\| |
 | 5. Self-Cleaning              | B repeated ⇒ B∩COMPLETE(F)=∅         |
 | 6. Dynamic Defense            | D_p = R(p)×λ_p                       |
