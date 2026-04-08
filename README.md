@@ -1,6 +1,6 @@
-B₂(n) = {n, n+1}                    // Binary blocks
-B₃(n) = {n, n+1, n+2}              // Triplet blocks  
-ℬ = ∪(B₂(n) ∪ B₃(n))               // Complete block space
+f1(n) = {n, n+1}                    // Binary blocks
+f2(n) = {n, n+1, n+2}              // Triplet blocks  
+p = ∪(B₂(n) ∪ B₃(n))               // Complete block space
 
 R(n) = |{B ∈ ℬ | n ∈ B}|           // Representation strength
 λ_p = p - max{q ∈ P_F | q < p}     // Prime wavelength
